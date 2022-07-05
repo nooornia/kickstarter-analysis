@@ -4,7 +4,7 @@ The purpose of this project is to analyze the data of Kickstarter campaigns to d
 ## Analysis of Outcomes Based on Launch Date 
 In order to analyze the outcome data of Kickstarter campaigns based on their launch dates, I created a pivot table filtered by the category of “theater” which contained data for successful, failed, and canceled Kickstarter campaigns. I sorted each outcome into categories based on the month they were launched in. Out of a total of 1369 theater campaigns, 839 were successful, 493 failed, and 37 were canceled. Using the pivot table, I then created a line chart to visually analyze the trends of the data. 
 
-![Outcomes Based on Launch Date] https://github.com/noorsami12/kickstarter-analysis/assets/images/theater_outcomes_vs_launch.png
+![https://github.com/noorsami12/kickstarter-analysis/assets/images/theater_outcomes_vs_launch.png](https://github.com/noorsami12/kickstarter-analysis/blob/4cf389434c50f0667760012ae4540c0480394470/Theater_Outcomes_vs_Launch.png)
 
 The line chart shows us the trends in the data based on the launch date of the campaigns, broken down into the three outcome categories. From this chart, we can see successful campaigns at a peak of 111 in May, failed campaigns at a peak of 52 in May, and canceled campaigns at a peak of 7 in January. Failed campaigns have a secondary peak of 50 in October.
 ## Analysis of Outcomes Based on Goals 
@@ -14,7 +14,7 @@ To analyze the outcome data of Kickstarter campaigns based on their goals, I cre
 ```
 Finally, I used a formula to calculate the percentage of each outcome category within each range. Then I created a pivot table from the data that organized the percentages of each outcome based on rows of goal ranges. I generated a line chart to showcase the data. 
 
-![Outcomes Based on Goals] [/assets/images/outcomes_based_on_goals.png](https://github.com/noorsami12/kickstarter-analysis/assets/images/outcomes_vs_goals.png)
+![Outcomes Based on Goals] Outcomes_vs_Goals.png](https://github.com/noorsami12/kickstarter-analysis/blob/4cf389434c50f0667760012ae4540c0480394470/Outcomes_vs_Goals.png)
 
 The line chart shows us several trends in the data of outcomes based on the Kickstarter campaign goals. We can see failed campaigns have a peak percentage of 100% when they had a goal within the range of $45,000 to $49,999. Successful campaigns had a peak of 80% successful when they were less than $1,000. 
 ## Challenges and Difficulties Encountered 
