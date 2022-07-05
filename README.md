@@ -14,7 +14,7 @@ To analyze the outcome data of Kickstarter campaigns based on their goals, I cre
 ```
 Finally, I used a formula to calculate the percentage of each outcome category within each range. Then I created a pivot table from the data that organized the percentages of each outcome based on rows of goal ranges. I generated a line chart to showcase the data. 
 
-![Outcomes_vs_Goals.png](https://github.com/noorsami12/kickstarter-analysis/blob/4cf389434c50f0667760012ae4540c0480394470/Outcomes_vs_Goals.png)
+![Outcomes_vs_Goals] (https://github.com/noorsami12/kickstarter-analysis/blob/43427358cb638d5567f157963a7775834e7b1a38/Resources/Outcomes_vs_Goals.png)
 
 The line chart shows us several trends in the data of outcomes based on the Kickstarter campaign goals. We can see failed campaigns have a peak percentage of 100% when they had a goal within the range of $45,000 to $49,999. Successful campaigns had a peak of 80% successful when they were less than $1,000. 
 ## Challenges and Difficulties Encountered 
