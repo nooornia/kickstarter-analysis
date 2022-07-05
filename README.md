@@ -3,15 +3,19 @@
 The purpose of this project is to analyze the data of Kickstarter campaigns to determine what factors influence the success of a Kickstarter campaign. My client is a playwright who needs to break down what results in a successful Kickstarter campaign, so the data I analyzed focused specifically on theater campaigns, as well as the potential to narrow the data down further to the subcategory of plays. I analyzed the outcomes of theater campaigns based on two separate criteria: their launch date and their goal amount. By analyzing the results of this data, I can paint a picture of what a successful theater campaign looks like and assist my client in setting up her own Kickstarter campaign. 
 ## Analysis of Outcomes Based on Launch Date 
 In order to analyze the outcome data of Kickstarter campaigns based on their launch dates, I created a pivot table filtered by the category of “theater” which contained data for successful, failed, and canceled Kickstarter campaigns. I sorted each outcome into categories based on the month they were launched in. Out of a total of 1369 theater campaigns, 839 were successful, 493 failed, and 37 were canceled. Using the pivot table, I then created a line chart to visually analyze the trends of the data. 
+
 ![Outcomes Based on Launch Date] /assets/images/outcomes_based_on_launch_date.png
+
 The line chart shows us the trends in the data based on the launch date of the campaigns, broken down into the three outcome categories. From this chart, we can see successful campaigns at a peak of 111 in May, failed campaigns at a peak of 52 in May, and canceled campaigns at a peak of 7 in January. Failed campaigns have a secondary peak of 50 in October.
 ## Analysis of Outcomes Based on Goals 
 To analyze the outcome data of Kickstarter campaigns based on their goals, I created a table to categorize the goal amounts into ranges of about $5,000, starting with goals that were less than $1,000 and progressing to goals greater than $50,000. I broke down each range into successful, failed, and canceled projects by using the COUNTIFS formula to calculate the number of campaigns from the original data that fit both the outcome category and the goal range. For example, for the range of $1,000 to $4,999, my code looked like: 
 ```
-=COUNTIFS(Kickstarter!F:F, "=Failed",Kickstarter!D:D, "<=9999",Kickstarter!D:D, ">=5000",  Kickstarter!R:R,"plays").
+=COUNTIFS(Kickstarter!F:F,"=Failed",Kickstarter!D:D,"<=9999",Kickstarter!D:D,">=5000", Kickstarter!R:R,"plays").
 ```
 Finally, I used a formula to calculate the percentage of each outcome category within each range. Then I created a pivot table from the data that organized the percentages of each outcome based on rows of goal ranges. I generated a line chart to showcase the data. 
+
 ![Outcomes Based on Goals] /assets/images/outcomes_based_on_goals.png
+
 The line chart shows us several trends in the data of outcomes based on the Kickstarter campaign goals. We can see failed campaigns have a peak percentage of 100% when they had a goal within the range of $45,000 to $49,999. Successful campaigns had a peak of 80% successful when they were less than $1,000. 
 ## Challenges and Difficulties Encountered 
 Most of the challenges I encountered while analyzing this data happened during the creation of the Outcomes based on Goals table and chart. Ensuring that the formulas were calculating correctly, as well as pulling from the correct range of data, was essential. I had to recheck each set of formulas multiple times to account for small mistakes, like an incorrect value, before I could generate the appropriate results. Formatting the pivot tables to filter and arrange and rows and columns in a visually-appropriate way also took a lot of time and experimentation.
