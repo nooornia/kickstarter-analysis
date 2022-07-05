@@ -4,7 +4,7 @@ The purpose of this project is to analyze the data of Kickstarter campaigns to d
 ## Analysis of Outcomes Based on Launch Date 
 In order to analyze the outcome data of Kickstarter campaigns based on their launch dates, I created a pivot table filtered by the category of “theater” which contained data for successful, failed, and canceled Kickstarter campaigns. I sorted each outcome into categories based on the month they were launched in. Out of a total of 1369 theater campaigns, 839 were successful, 493 failed, and 37 were canceled. Using the pivot table, I then created a line chart to visually analyze the trends of the data. 
 
-![Resources/Theater_Outcomes_vs_Launch.png] (Resources/Theater_Outcomes_vs_Launch.png)
+![Resources/Theater_Outcomes_vs_Launch.png] (/assets/images/Theater_Outcomes_vs_Launch.png)
 
 The line chart shows us the trends in the data based on the launch date of the campaigns, broken down into the three outcome categories. From this chart, we can see successful campaigns at a peak of 111 in May, failed campaigns at a peak of 52 in May, and canceled campaigns at a peak of 7 in January. Failed campaigns have a secondary peak of 50 in October.
 ## Analysis of Outcomes Based on Goals 
